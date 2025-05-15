@@ -1,16 +1,21 @@
-# Étape 1 : image de base
-FROM python:3.13-alpine
+FROM python:3.11
 
+# Installer les dépendances système
+RUN apt-get update && apt-get install -y build-essential python3-dev
 
-# Étape 2 : dossier de travail
-WORKDIR /valdes-bot
+# Définir le répertoire de travail
+WORKDIR /app
 
-# Étape 3 : copier les fichiers nécessaires
+# Copier les fichiers de dépendances
 COPY requirements.txt .
+
+# Mettre à jour pip et installer les dépendances Python
+RUN pip install --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Étape 4 : copier le reste du code
+# Copier le reste du code
 COPY . .
+
 
 # Étape 5 : exposer le port pour FastAPI
 EXPOSE 8000
