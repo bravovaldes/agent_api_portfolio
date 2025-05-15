@@ -1,0 +1,98 @@
+{
+  "fullName": "Valdes Mezankou Bravo",
+  "contact": {
+    "email": "prauvaldes@gmail.com",
+    "phone": "+1 418 490 1849",
+    "location": "391 Rue Lafontaine, Chicoutimi, QC, G7H4T9, Canada",
+    "website": "https://portfoliobravo.netlify.app"
+  },
+  "summary": "Étudiant en dernière session du Baccalauréat en Informatique à l’UQAC, spécialisé en développement Full-Stack et Intelligence Artificielle. Passionné par les technologies web, mobiles et cloud, je cherche à mettre mes compétences en pratique dans des projets à fort impact.",
+  "skills": [
+    "Java", "Kotlin", "Python", "C#", "JavaScript",
+    "React.js", "ASP.NET", ".NET 9", "Tailwind CSS", "Firebase", "PostgreSQL",
+    "FastAPI", "Jetpack Compose", "Compose for Desktop",
+    "Azure (AKS, CosmosDB, Service Bus)", "Docker", "Kubernetes", "CI/CD"
+  ],
+  "softSkills": [
+    "Autonomie", "Rigueur", "Esprit d'équipe", "Pédagogie", "Organisation", "Communication claire"
+  ],
+  "education": [
+    {
+      "institution": "Université du Québec à Chicoutimi (UQAC)",
+      "degree": "Baccalauréat en Informatique",
+      "location": "Chicoutimi, Québec",
+      "gpa": "3.65",
+      "dates": "08/2022 - 07/2025"
+    },
+    {
+      "institution": "Institut Supérieur des Sciences et Technologies",
+      "degree": "BTS (Génie Logiciel, interrompu)",
+      "location": "Dschang, Cameroun",
+      "dates": "06/2021 - 05/2022"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Machine Learning avec Python – de Zéro à Réseaux de Neurones",
+      "issuer": "Udemy",
+      "date": "2023",
+      "skills": ["Machine Learning", "Python", "Réseaux de Neurones"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Aide pédagogique en informatique et mathématiques",
+      "company": "Université du Québec à Chicoutimi",
+      "location": "Chicoutimi, QC",
+      "type": "Contrat",
+      "dates": "08/2024 - Actuel",
+      "description": "Assistance aux étudiants pour les cours de Structures Discrètes, Informatique Mobile et Calcul Avancé. Travail au SAMI (Service d’Aide en Mathématiques et Informatique)."
+    },
+    {
+      "title": "Développeur desktop et mobile",
+      "company": "Pizza Salvatoré",
+      "location": "Chicoutimi, QC",
+      "type": "Contrat",
+      "dates": "05/2024 - 07/2024",
+      "description": "Conception d’une application de gestion des flux financiers (cash in/out) pour les livraisons. Utilisation de Kotlin, Compose for Desktop et Firebase."
+    },
+    {
+      "title": "Développeur Full Stack",
+      "company": "Solutech",
+      "location": "Dschang, Cameroun",
+      "type": "Stage",
+      "dates": "03/2022 - 06/2022",
+      "description": "Participation au développement d'une application web en C# (.NET), React.js et PostgreSQL. Déploiement cloud avec Azure et travail dans un environnement Agile."
+    }
+  ],
+  "projects": [
+    {
+      "title": "AgriPoule",
+      "description": "Application mobile intelligente pour détecter les maladies aviaires. Développée avec FastAPI, PyTorch, Firebase, Jetpack Compose, CI/CD, Docker et Kubernetes. Disponible sur le Play Store.",
+      "technologies": ["FastAPI", "Kotlin", "Firebase", "PyTorch", "Jetpack Compose", "Docker", "Kubernetes"]
+    },
+    {
+      "title": "Réseau social intelligent (UQAC)",
+      "description": "Projet universitaire développé avec .NET 9, microservices MVC/API, Azure AKS, CosmosDB, Event Hub, Service Bus, Azure AI et Key Vault. Déploiement complet en CI/CD avec Docker et monitoring cloud.",
+      "technologies": [".NET 9", "Azure AKS", "Cosmos DB", "CI/CD", "Microservices", "DevOps"]
+    }
+  ],
+  "languages": [
+    { "language": "Français", "level": "Langue maternelle" },
+    { "language": "Anglais", "level": "Intermédiaire" }
+  ],
+  "faq": [
+    {
+      "question": "Pourquoi devrions-nous recruter Valdes ?",
+      "answer": "Valdes possède une solide formation en informatique, une expérience concrète en développement ASP.NET, React, Azure et mobile. Il est rigoureux, autonome, curieux et habitué à travailler en équipe sur des projets réels, avec un excellent sens de la qualité et de la documentation."
+    },
+    {
+      "question": "Quels sont ses objectifs à moyen terme ?",
+      "answer": "Il souhaite évoluer dans un environnement innovant, renforcer ses compétences en ingénierie logicielle moderne, et contribuer à des produits à fort impact technologique et humain."
+    },
+    {
+      "question": "Quels types de projets l'intéressent ?",
+      "answer": "Il est attiré par les projets alliant intelligence artificielle, développement web/cloud et performance utilisateur, avec une attention particulière à la qualité du code et à l’architecture logicielle."
+    }
+  ]
+}
