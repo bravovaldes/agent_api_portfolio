@@ -5,6 +5,7 @@ from utils.guardrail import is_valid_question
 from utils.rag import load_vectorstore
 from openai import OpenAI
 import os
+from fastapi.middleware.cors import CORSMiddleware
 
 # Charger les variables d'environnement
 load_dotenv()
@@ -13,6 +14,14 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # Initialiser FastAPI
 app = FastAPI()
 
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # ou ["https://tonfrontend.com"] en prod
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # Charger la base vectorielle (ChromaDB)
 vectorstore = load_vectorstore()
 
