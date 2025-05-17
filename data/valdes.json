@@ -6,9 +6,9 @@
     "location": "825 rue du chardonnay,Drummondville, J2B0X3,QC, Canada",
     "website": "https://valdes-bravo.com/"
   },
-  "summary": "Étudiant en dernière session du Baccalauréat en Informatique à l’UQAC, passionné par le développement Full-Stack et l'IA. À travers des projets réels, des expériences pédagogiques et une plateforme collaborative de blog, je démontre rigueur, autonomie et volonté farouche de progresser.",
+  "summary": " Nouveau diplômé du Baccalauréat en Informatique (spécialisation Intelligence Artificielle) à l'UQAC avec une moyenne de 3.75/4.3. Passionnépar les mathématiques et la programmation, je suis prêt à relever denouveaux défis professionnels !",
   "skills": [
-    "Java", "Kotlin", "Python", "C#", "JavaScript",
+    "Kotlin", "Python", "C#", "JavaScript",
     "React.js", "ASP.NET", ".NET 9", "Tailwind CSS", "Firebase", "PostgreSQL",
     "FastAPI", "Jetpack Compose", "Compose for Desktop",
     "Azure (AKS, CosmosDB, Service Bus)", "Docker", "Kubernetes", "CI/CD"
@@ -21,7 +21,7 @@
       "institution": "Université du Québec à Chicoutimi (UQAC)",
       "degree": "Baccalauréat en Informatique",
       "location": "Chicoutimi, Québec",
-      "gpa": "3.65",
+      "gpa": "3.75",
       "dates": "08/2022 - 07/2025"
     },
     {
